@@ -2,26 +2,26 @@
 
 
 
-# [Project Name] 🎯
+# YapTrap 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Ctrl+Z]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Riya Tessa Majo] - [LMCST]
+- Member 2: [Farhana N] - [LMCST]
+- Member 3: [Riya Tessa Majo] - [LMCST]
 
 ### Project Description
-[2-3 lines about what your project does]
+YapTrap is a playful musical diary that allows users to express their thoughts and feelings through writing.As users type, the system detects words from dairy entries and searches for songs related to those words.The matching songs play in the background, turning a normal diary entry into an unexpectedly dramatic and entertaining experience.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People open a diary to express their feelings, but sometimes their words are not dramatic enough.There is no system that interrupts their emotional venting with a song matching every random word they type
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+YapTrap is a musical diary that searches for songs based on the words typed by the user.Whenever  word appears it finds matching song and plays it in the background without interrupting the user's writing.It turns diary entries into dramatic music experience.
 
 ## Technical Details
 ### Technologies/Components Used
