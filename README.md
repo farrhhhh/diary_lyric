@@ -52,10 +52,10 @@ For Software:
 *Landing page of YapTrap*
 
 ![Screenshot2](photos/Screenshot%20(73).png)
-*Entering a diary entry and triggering songs*
+*Entering a diary entry*
 
 ![Screenshot3](photos/Screenshot%20(74).png)
-*Terms and conditions popup*
+*Entering a diary entry and triggering songs*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
