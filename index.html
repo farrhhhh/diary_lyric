@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YapTrap — A Safe Space to Express Your Feelings</title>
+  <meta name="description" content="A safe space to express your feelings. Your vocabulary is not safe." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-doodles"></div>
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
 
+  <main class="main-container">
+
+    <!-- ═══════════ LANDING PAGE ═══════════ -->
+    <section id="landing-view" class="landing-view">
+      <div class="hero-content">
+        <h1 id="landing-title" class="brand-title" tabindex="0" role="button"
+            aria-label="Click to open diary">YapTrap</h1>
+        <p class="hint-text">Click to enter your diary</p>
+        <p class="tagline-main">A safe space to express your feelings.</p>
+        <p class="tagline-sub">Your vocabulary is not safe.</p>
+      </div>
+    </section>
+
+    <!-- ═══════════ DIARY PAGE ═══════════ -->
+    <section id="diary-view" class="diary-view hidden">
+
+      <div class="diary-header">
+        <h1 id="diary-title" class="brand-title diary-brand"
+            tabindex="0" role="button" aria-label="Back to home">YapTrap</h1>
+      </div>
+
+      <div class="diary-container">
+
+        <textarea
+          id="diary-textarea"
+          class="diary-textarea"
+          placeholder="Dear Diary..."
+          spellcheck="false"
+        ></textarea>
+      </div>
+
+      <!-- Music status (hidden until needed) -->
+      <div id="music-status" class="music-status hidden" aria-live="polite">
+        <span id="music-status-text" class="status-text"></span>
+      </div>
+
+      <!-- New Entry button -->
+      <button id="btn-new-entry" class="btn-new-entry" type="button">
+        ✦ New Diary Page
+      </button>
+
+    </section>
+
+  </main>
+
+  <!-- ═══════════ POPUP / MODAL SYSTEM ═══════════ -->
+  <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true">
+    <div id="modal-card" class="diary-container modal-card">
+      <div id="modal-body" class="modal-body"></div>
+      <div id="modal-footer" class="modal-footer hidden">
+        <button id="modal-btn" class="btn-new-entry modal-btn" type="button"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

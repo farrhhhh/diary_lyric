@@ -48,14 +48,14 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1](../photos/Screenshot%20(71).png)
+*Landing page of YapTrap*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](../photos/Screenshot%20(73).png)
+*Entering a diary entry and triggering songs*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](../photos/Screenshot%20(74).png)
+*Terms and conditions popup*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
