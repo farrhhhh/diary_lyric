@@ -11,8 +11,8 @@
 
 ### Team Members
 - Team Lead: [Riya Tessa Majo] - [LMCST]
-- Member 2: [Farhana N] - [LMCST]
-- Member 3: [Riya Tessa Majo] - [LMCST]
+- Member 1: [Farhana N] - [LMCST]
+- Member 2: [Riya Tessa Majo] - [LMCST]
 
 ### Project Description
 YapTrap is a playful musical diary that allows users to express their thoughts and feelings through writing.As users type, the system detects words from dairy entries and searches for songs related to those words.The matching songs play in the background, turning a normal diary entry into an unexpectedly dramatic and entertaining experience.
@@ -61,8 +61,14 @@ For Software:
 *Entering a diary entry and triggering songs*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+graph TD
+    A[User Types Diary Entry] --> B{Text Analysis}
+    B -->|Stop Word / Banned Word| C[Ignore]
+    B -->|Valid Word| D[Search iTunes API]
+    D -->|Song Found| E[Play Song in Background]
+    D -->|No Song Found| C
+```
+*YapTrap application workflow showing the logic behind word detection and song playback.*
 
 For Hardware:
 
