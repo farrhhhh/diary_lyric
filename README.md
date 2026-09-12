@@ -48,13 +48,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](../photos/Screenshot%20(71).png)
+![Screenshot1](photos/Screenshot%20(71).png)
 *Landing page of YapTrap*
 
-![Screenshot2](../photos/Screenshot%20(73).png)
+![Screenshot2](photos/Screenshot%20(73).png)
 *Entering a diary entry and triggering songs*
 
-![Screenshot3](../photos/Screenshot%20(74).png)
+![Screenshot3](photos/Screenshot%20(74).png)
 *Terms and conditions popup*
 
 # Diagrams
