@@ -26,10 +26,10 @@ YapTrap is a musical diary that searches for songs based on the words typed by t
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML5, CSS3, JavaScript (Vanilla JS)
+- None (Vanilla)
+- iTunes Search API, Google Fonts
+- Git, GitHub
 
 For Hardware:
 - [List main components]
@@ -39,10 +39,13 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+```bash
+git clone https://github.com/your-username/YapTrap.git
+cd YapTrap
+```
 
 # Run
-[commands]
+Since this is a Vanilla JS project, no build tools are required. Simply open `index.html` in your web browser, or use an extension like **Live Server** in VS Code
 
 ### Project Documentation
 For Software:
